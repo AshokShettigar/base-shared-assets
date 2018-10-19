@@ -1,0 +1,20 @@
+{
+  "name": "platform-common-assets",
+  "version": "1.0.20",
+  "description": "Common assets",
+  "author": "Continuum, LLC",
+  "license": "UNLICENSED",
+  "repository": "ContinuumLLC/platform-common-assets",
+  "publishConfig": {
+    "registry": "http://artifact.corp.continuum.net:8081/artifactory/api/npm/Local-NPM"
+  },
+  "main": "dist",
+  "scripts": {
+    "build": "cross-env grunt"
+  },
+  "devDependencies": {
+    "cross-env": "^3.1.4",
+    "grunt": "^1.0.1",
+    "grunt-svgstore": "^1.0.0"
+  }
+}
